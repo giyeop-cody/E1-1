@@ -20,3 +20,25 @@
 
 ## 2) docker 커스텀 컨테이너의 웹 접속 증거
 ![web](../img/docker_custom_img_service.png)
+
+## 3) 포트 매핑 제현하기
+
+`docker run -p hostport:containerport image`는 매번 사용하는 것이 번거로운
+
+해결법 1 dockerfile에 하기
+```FROM nginx:latest
+# 실제 포트를 여는 게 아니라, 80번을 쓴다는 '메모'입니다.
+EXPOSE 80```
+
+강제 불가능함.
+
+해결법 2 docker-compose.yml에 하기
+```version: '1'
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"  # 여기서 포트 매핑을 고정할 수 있습니다.``
+
+강제함.
+
