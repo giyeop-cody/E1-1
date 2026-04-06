@@ -33,11 +33,17 @@ root/
 ```
 
 docs:README.md의 서브 독스
+
 img:기록용 이미지(스크린샷)
+
 html:nginx의 변경
+
 bindmount_test:바인드마운트 테스트용 디렉토리
+
 Dockerfile:nginx 커스텀 이미지를 만들기 위함 도커 파일
+
 nginx.conf:nginx의 설정
+
 README.md:프로젝트를 설명하는 문서
 
 ## 4) 수행 기록
@@ -60,4 +66,4 @@ README.md:프로젝트를 설명하는 문서
 
 ### [Git 설정 및 GitHub 연동](./docs/GIT_GITHUB)
 
-### [트러블 슈팅]()
+### [트러블 슈팅](./docs/TROUBLESHOOTING.md)
