@@ -18,6 +18,8 @@
 - [x] 볼륨 영속성
 - [x] Git 설정 + VSCode GitHub 연동
 
+## 3) 수행 기록
+
 ### [터미널 조작 로그 기록](./docs/TERMINAL.md)
 
 ### [권한 실습 및 증거 기록](./docs/PERMISSION.md)
@@ -34,6 +36,6 @@
 
 ### [Docker 볼륨 영속성 검증](./docs/DOCKER_VOLUME.md)
 
-### [Git 설정 및 GitHub 연동]()
+### [Git 설정 및 GitHub 연동](./docs/GIT_GITHUB)
 
 ### [트러블 슈팅]()
