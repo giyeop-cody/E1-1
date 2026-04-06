@@ -64,6 +64,6 @@ README.md:프로젝트를 설명하는 문서
 
 ### [Docker 볼륨 영속성 검증](./docs/DOCKER_VOLUME.md)
 
-### [Git 설정 및 GitHub 연동](./docs/GIT_GITHUB)
+### [Git 설정 및 GitHub 연동](./docs/GIT_GITHUB.md)
 
 ### [트러블 슈팅](./docs/TROUBLESHOOTING.md)
