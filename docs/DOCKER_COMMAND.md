@@ -8,9 +8,15 @@
 ![다운로드 전 도커 이미지 목록](../img/docker_image_download_screenshot.png)
 
 ## 2) 컨테이너 실행/중지/목록 확인
-`docker ps`로 실행 중인 docker 컨테이너를 확인
+`docker ps`로 실행 중인 docker 컨테이너 목록을 확인
 
-`docker ps -a`를 사용하면 중지된 docker 컨테이너도 확인 가능
+`docker ps -a`를 사용하면 중지된 docker 컨테이너를 포함한 목록도 확인 가능
+
+`docker start` 명령어로 기존에 중지된 docker 컨테이너를 직접 실행할 수 있음.
+
+`docker stop` 명령어로 가동 중인 docker 컨테이너를 중지 가능
+
+`docker rm` 명령어로 불용 컨테이너를 삭제(정리) 가능
 
 ![도커 컨테이너 동작을 확인](../img/docker_ps_screenshot.png)
 
