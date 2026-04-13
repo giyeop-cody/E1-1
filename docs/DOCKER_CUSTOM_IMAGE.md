@@ -49,7 +49,9 @@ events {
 
 ### 나) docker 이미지 빌드
 
-`docker build -t my-custom-nginx:1.0 .`
+`docker build -t my-custom-nginx:1.0 .`  명령어를 사용 하여 커스텀 이미지를 빌드
+
+실제 빌드가 성공한 화면 스크린샷
 ![docker build](../img/docker_custom_img_build.png)
 
 docker buildx를 통한 build입니다.
