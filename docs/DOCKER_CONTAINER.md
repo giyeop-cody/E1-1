@@ -2,6 +2,7 @@
 
 ## 1) `hello-world` 실행 성공 기록
 ![hello-world 실행 결과](../img/docker_container_screenshot.png)
+`docker run hello-world` 명령어를 통해서 hello-world 이미지를 컨테이너로 실행
 
 ## 2) `ubuntu` 컨테이너를 실행하고 내부 진입 후 명렁어 실행
 `ls` , `echo` 등의 간단한 명령 수행 결과
