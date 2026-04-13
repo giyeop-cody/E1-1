@@ -49,6 +49,7 @@ README.md:프로젝트를 설명하는 문서
 ## 4) 수행 기록
 
 ### [터미널 조작 로그 기록](./docs/TERMINAL.md)
+
 <object type="text/markdown" data="./docs/TERMINAL.md"></object>
 
 ### [권한 실습 및 증거 기록](./docs/PERMISSION.md)
